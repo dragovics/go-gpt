@@ -1,0 +1,17 @@
+# Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Browser Profile & Data
+chrome-cdp-profile/
+RelayProfile/
+*.log
+*.tmp
+.DS_Store
+
+# Credentials
+.env
+*.cred
