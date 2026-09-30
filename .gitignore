@@ -1,17 +1,10 @@
-# Environments
-venv/
-.venv/
-env/
+runtime-env/
+workspace/
+e2e*/
 __pycache__/
 *.pyc
-
-# Browser Profile & Data
-chrome-cdp-profile/
-RelayProfile/
-*.log
-*.tmp
-.DS_Store
-
-# Credentials
-.env
-*.cred
+audit.jsonl
+sessions.db
+sessions.db-wal
+sessions.db-shm
+.pytest_cache/
